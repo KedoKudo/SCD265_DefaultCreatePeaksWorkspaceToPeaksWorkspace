@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from mantid.simpleapi import *
 
 #-- default, regular PeaksWorkspaces with an instrument specified
 sampleWs = CreateSampleWorkspace()
